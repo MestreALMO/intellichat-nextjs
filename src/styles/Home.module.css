@@ -1,1 +1,92 @@
-/* .main{} */
+.main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topBar {
+  border-bottom: 1px solid;
+  border-color: var(--buttons);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.topBar h3 {
+  font-size: 20px;
+}
+
+.topBarDiviser {
+  background-color: #202123;
+  width: 100%;
+  padding: 4px;
+}
+
+.chatContainer {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chat {
+  padding: 8px 16px;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-color: var(--foreground);
+  margin: 8px;
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.inputArea input {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.inputArea input:focus {
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.inputAreaButtons {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.inputAreaButtons button {
+  font-size: 26px;
+  padding: 6px 6px 0 6px;
+  background-color: var(--buttons);
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.inputAreaInput {
+  padding: 6px;
+  font-size: 16px;
+  color: var(--foreground);
+  min-height: 44px;
+  max-width: 100%;
+}
+.inputAreaInput:focus {
+  color: var(--foreground);
+}
+
+.finalText {
+  font-size: 16px;
+  text-align: end;
+  padding-right: 6px;
+  padding-bottom: 6px;
+}
+
+.SectionBottomAndTop {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}

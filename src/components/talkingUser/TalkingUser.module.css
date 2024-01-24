@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  margin-bottom: 6px;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 16px;
+  padding-left: 6px;
+}
+
+.user {
+  font-weight: 900;
+  padding: 4px 0;
+}
